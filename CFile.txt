@@ -1,0 +1,26 @@
+=======================================================================================================================================================
+Our Constraint Satisfaction problem is an 10-Queen Problem.
+=======================================================================================================================================================
+Following are the specifications:
+1.VARIABLES along with their DOMAINS:
+Queen0 represented as 0 in the code as python dictionary keys with a domain of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Queen1 represented as 1 in the code as python dictionary keys with a domain of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Queen2 represented as 2 in the code as python dictionary keys with a domain of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Queen3 represented as 3 in the code as python dictionary keys with a domain of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Queen4 represented as 4 in the code as python dictionary keys with a domain of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Queen5 represented as 5 in the code as python dictionary keys with a domain of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Queen6 represented as 6 in the code as python dictionary keys with a domain of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Queen7 represented as 7 in the code as python dictionary keys with a domain of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Queen8 represented as 8 in the code as python dictionary keys with a domain of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Queen9 represented as 9 in the code as python dictionary keys with a domain of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+2.CONSTRAINTS:
+NOTE: abs() at any difference shows the absolute value
+Q0!=Q1, abs(Q1-Q0)!=1, Q0!=Q2, abs(Q2-Q0)!=2, Q0!=Q3, abs(Q3-Q0)!=3, Q0!=Q4, abs(Q4-Q0)!=4, Q0!=Q5, abs(Q5-Q0)!=5, Q0!=Q6, abs(Q6-Q0)!=6, Q0!=Q7, abs(Q7-Q0)!=7, Q0!=Q8, abs(Q8-Q0)!=8, Q0!=Q9, abs(Q9-Q0)!=9, Q1!=Q2, abs(Q2-Q1)!=1,
+Q1!=Q3, abs(Q3-Q1)!=2, Q1!=Q4, abs(Q4-Q1)!=3, Q1!=Q5, abs(Q5-Q1)!=4, Q1!=Q6, abs(Q6-Q1)!=5, Q1!=Q7, abs(Q7-Q1)!=6, Q1!=Q8, abs(Q8-Q1)!=7, Q1!=Q9, abs(Q9-Q1)!=8, Q2!=Q3, abs(Q3-Q2)!=1,
+Q2!=Q4, abs(Q4-Q2)!=2, Q2!=Q5, abs(Q5-Q2)!=3, Q2!=Q6, abs(Q6-Q2)!=4, Q2!=Q7, abs(Q7-Q2)!=5, Q2!=Q8, abs(Q8-Q2)!=6, Q2!=Q9, abs(Q9-Q2)!=7, Q3!=Q4, abs(Q4-Q3)!=1,
+Q3!=Q5, abs(Q5-Q3)!=2, Q3!=Q6, abs(Q6-Q3)!=3, Q3!=Q7, abs(Q7-Q3)!=4, Q3!=Q8, abs(Q8-Q3)!=5, Q3!=Q9, abs(Q9-Q3)!=6, Q4!=Q5, abs(Q5-Q4)!=1,
+Q4!=Q6, abs(Q6-Q4)!=2, Q4!=Q7, abs(Q7-Q4)!=3, Q4!=Q8, abs(Q8-Q4)!=4, Q4!=Q9, abs(Q9-Q4)!=5, Q5!=Q6, abs(Q6-Q5)!=1,
+Q5!=Q7, abs(Q7-Q5)!=2, Q5!=Q8, abs(Q8-Q5)!=3, Q5!=Q9, abs(Q9-Q5)!=4, Q6!=Q7, abs(Q7-Q6)!=1,
+Q6!=Q8, abs(Q8-Q6)!=2, Q6!=Q9, abs(Q9-Q6)!=3, Q7!=Q8, abs(Q8-Q7)!=1,
+Q7!=Q9, abs(Q9-Q7)!=2, Q8!=Q9, abs(Q9-Q8)!=1,
